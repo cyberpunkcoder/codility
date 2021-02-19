@@ -17,13 +17,7 @@ func TestSolution(t *testing.T) {
 		want int
 	}{
 		// Put tests in here, example below:
-		{args{1}, 0},
-		{args{2}, 0},
-		{args{3}, 0},
-		{args{4}, 0},
-		{args{5}, 1},
-		{args{9}, 2},
-		{args{20}, 1},
+		//{args{1}, 0},
 	}
 	for i, tt := range tests {
 		// Generate  a name for the test
@@ -59,13 +53,7 @@ func TestSolution2(t *testing.T) {
 		want int
 	}{
 		// Put tests in here, example below:
-		{args{1}, 0},
-		{args{2}, 0},
-		{args{3}, 0},
-		{args{4}, 0},
-		{args{5}, 1},
-		{args{9}, 2},
-		{args{20}, 1},
+		//{args{1}, 0},
 	}
 	for i, tt := range tests {
 		// Generate  a name for the test
