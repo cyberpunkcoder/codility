@@ -1,17 +1,12 @@
 R E F E R A N C E
 =================
 
-// VARIABLE
------------
-var name int
-var name int = 32
-
-
 // SLICE
 --------
-x := []int {1,2,3}
 var x []int
 var x [3]int
+x := []int {1,2,3}
+x := make([]int, length)
 
 
 // SLICE LITERAL
@@ -22,6 +17,11 @@ var x [3]int
 // SLICE DEFAULT
 ----------------
 s = s[1:4] // INCLUDING 1 EXCLUDING 4
+
+
+// VARIABLE OF TYPE
+-------------------
+var name int = 32
 
 
 // MULTIPLE VARIABLES
@@ -67,6 +67,7 @@ for i, word := range words {
 ----------------------------
 output, err := strconv.ParseInt(binary, 2, 64)  
 
+
 // CONVERT DECIMAL TO BINARY
 ----------------------------
 binary := 0  
@@ -88,6 +89,7 @@ if err != nil {
     fmt.Println(err)  
     return  
 } 
+
 
 // REVERSE A SLICE
 ------------------
