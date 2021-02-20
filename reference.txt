@@ -19,6 +19,10 @@ x := make([]int, length)
 s = s[1:4] // INCLUDING 1 EXCLUDING 4
 
 
+// MAKE A MAP
+letters := make(map[string]int)
+
+
 // VARIABLE OF TYPE
 -------------------
 var name int = 32
