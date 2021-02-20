@@ -1,0 +1,96 @@
+R E F E R A N C E
+=================
+
+// VARIABLE
+-----------
+var name int
+var name int = 32
+
+
+// SLICE
+--------
+x := []int {1,2,3}
+var x []int
+var x [3]int
+
+
+// SLICE LITERAL
+----------------
+[]int {1,2,3}
+
+
+// SLICE DEFAULT
+----------------
+s = s[1:4] // INCLUDING 1 EXCLUDING 4
+
+
+// MULTIPLE VARIABLES
+---------------------
+var name1, name2, name3 int
+var name1, name2, name3 int = 1, 2, 3
+
+
+// MULTIPLE VARIABLE TYPES
+--------------------------
+var name1, name2, name3 = 1, 2.2, false
+name1, name2, name3 := 1, 2.2, false
+
+
+// A STRING IS JUST A BYTE SLICE
+--------------------------------
+var1 := "Hello"
+var2 := []int32(va1)
+
+
+// INT TO BINARY
+----------------
+n := int64(123)
+fmt.Println(strconv.FormatInt(n, 2)) // 1111011
+n := int64(123)
+fmt.Printf("%b", n)  // 1111011
+
+
+// BIG VALUES
+-------------
+x := big.NewInt(123)
+
+
+// PRINT ONE WORD AT A TIME
+---------------------------
+words := strings.Fields("This, that, and the other.")
+for i, word := range words {
+	fmt.Println(i, " => ", word)
+}
+
+
+// CONVERT BINARY TO DECIMAL
+----------------------------
+output, err := strconv.ParseInt(binary, 2, 64)  
+
+// CONVERT DECIMAL TO BINARY
+----------------------------
+binary := 0  
+counter := 1  
+remainder := 0  
+
+
+for number != 0 {  
+    remainder = number % 2  
+    number = number / 2  
+    binary += remainder * counter  
+    counter *= 10  
+} 
+
+
+// HANDLE A BASIC ERROR
+-----------------------
+if err != nil {  
+    fmt.Println(err)  
+    return  
+} 
+
+// REVERSE A SLICE
+------------------
+for i, j := 0, len(s)-1; i < j; i, j = i+1, j-1 {
+    s[i], s[j] = s[j], s[i]
+}
