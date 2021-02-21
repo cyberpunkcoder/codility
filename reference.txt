@@ -1,6 +1,14 @@
 R E F E R A N C E
 =================
 
+// DIVIDE TWO INTS ROUND UP
+---------------------------
+(X + (Y - 1)) / Y
+
+// SUM OF INTS FROM 1 TO N
+--------------------------
+n*(n+1)/2
+
 // SLICE
 --------
 var x []int
