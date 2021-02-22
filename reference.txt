@@ -27,6 +27,10 @@ x := make([]int, length)
 s = s[1:4] // INCLUDING 1 EXCLUDING 4
 
 
+// SORT A SLICE
+sort.Ints(slice)
+
+
 // MAKE A MAP
 letters := make(map[string]int)
 
