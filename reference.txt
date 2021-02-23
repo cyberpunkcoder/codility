@@ -5,9 +5,23 @@ R E F E R A N C E
 ---------------------------
 (X + (Y - 1)) / Y
 
+
 // SUM OF INTS FROM 1 TO N
 --------------------------
 n*(n+1)/2
+
+
+// REMOVE FROM SLICE ORDERED
+----------------------------
+copy(A[i:], A[i+1:])
+A = A[:len(A)-1]
+
+
+// REMOVE FROM SLICE UNORDERED
+------------------------------
+A[i] = A[len(A)-1]
+A = A[:len(A)-1]
+
 
 // SLICE
 --------
