@@ -13,6 +13,6 @@ func main() {
 
 // Solution to problem
 
-/* Paste previous problem here before moving on to save it
+/* Paste solved problem here before moving on
 
  */
