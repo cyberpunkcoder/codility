@@ -8,7 +8,7 @@ package main
 // fmt.Println("this is a debug message")
 
 func main() {
-	// Solution()
+	//fmt.Println(Solution())
 }
 
 // Solution to problem
